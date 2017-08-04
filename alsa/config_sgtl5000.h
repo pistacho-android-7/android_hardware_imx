@@ -56,8 +56,8 @@ static struct route_setting defaults_SGTL5000[] = {
 
 /* ALSA cards for IMX, these must be defined according different board / kernel config*/
 static struct audio_card  sgtl5000_card = {
-    .name = "sgtl5000-audio",
-    .driver_name = "sgtl5000-audio",
+    .name = "audio-sgtl5000",
+    .driver_name = "audio-sgtl5000",
     .supported_out_devices = (
             AUDIO_DEVICE_OUT_WIRED_HEADPHONE |
             AUDIO_DEVICE_OUT_SPEAKER |
